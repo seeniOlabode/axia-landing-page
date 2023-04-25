@@ -1,0 +1,35 @@
+@import "/assets/css/fonts.css";
+
+* {
+  @apply antialiased;
+}
+
+/* TYPOGRAPHY */
+
+/* TIEMPOS */
+
+[class*="headline"] {
+  font-family: "Tiempos Headline";
+}
+
+.heading-1-headline {
+  font-size: 32px;
+  font-weight: medium;
+  @apply md:text-[45px];
+}
+
+.heading-2-headline {
+  font-size: 28px;
+  font-weight: meddium;
+  @apply md:text-[36px];
+}
+
+/* AVENIR */
+
+.heading-2 {
+  @apply text-lg font-semibold;
+}
+
+.body {
+  @apply text-base leading-6 text-axia-darkgrey font-sans font-semibold;
+}

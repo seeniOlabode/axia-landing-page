@@ -1,0 +1,25 @@
+/* TIEMPOS HEADLINE */
+
+@font-face {
+  font-family: "Tiempos Headline";
+  src: url(assets/fonts/Tiempos-Font/TiemposHeadline-Black.otf);
+}
+
+@font-face {
+  font-family: "Tiempos Headline";
+  src: url(assets/fonts/Tiempos-Font/TiemposHeadline-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Tiempos Headline";
+  src: url(assets/fonts/Tiempos-Font/TiemposHeadline-Medium.otf);
+  font-weight: medium;
+}
+
+/* AVENIR */
+
+@font-face {
+  font-family: "Avenir";
+  src: url(assets/fonts/Avenir/AvenirLTStd-Book.otf);
+}
