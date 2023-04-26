@@ -27,6 +27,11 @@ button {
   padding: 12px 0;
   @apply font-semibold;
 }
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
 .primary {
   box-shadow: 6px 7px 0 0px rgb(34 34 84);
   transition: all 0.3s ease;
