@@ -1,14 +1,23 @@
 <template>
   <aside class="testimony-marquee absolute left-0 overflow-hidden mt-[80px]">
     <div class="marquee-inner flex overflow-hidden gap-[20px]">
-      <success-marquee-card v-for="dat in data" :key="dat + 'rr'" />
-      <success-marquee-card v-for="dat in data" :key="dat + 'rr'" />
+      <success-marquee-card
+        v-for="testi in data"
+        :key="testi.name + 'testimony'"
+        :testimonyData="testi"
+      />
+      <success-marquee-card
+        v-for="testi in data"
+        :key="testi.name + 'testimony'"
+        :testimonyData="testi"
+      />
     </div>
   </aside>
 </template>
 
 <script>
 import SuccessMarqueeCard from "./SuccessMarqueeCard.vue";
+import Data from "@/data/data.json";
 
 export default {
   name: "SuccessMarquee",
@@ -17,7 +26,7 @@ export default {
   },
   data() {
     return {
-      data: [1, 2, 3, 4, 5],
+      data: Data.testimonies,
     };
   },
 };

@@ -1,16 +1,22 @@
 <template>
   <article class="relative">
-    <div class="course-image-container w-full h-[141px] overflow-hidden">
+    <div
+      class="course-image-container w-full h-[141px] md:h-[233px] overflow-hidden"
+    >
       <img class="w-full" :src="courseImgPath" alt="" />
     </div>
-    <div class="card-caption p-[20px]">
+    <div class="card-caption p-[20px] flex flex-col items-start">
       <h4 class="heading-2 font-bold">
         {{ courseData.name }}
       </h4>
       <p class="text-sm leading-[20px] mt-[12px] mb-[16px]">
         {{ courseData.description }}
       </p>
-      <action-button buttonType="secondary" icon="arrow">
+      <action-button
+        buttonType="secondary"
+        icon="arrow"
+        style="justify-self: end"
+      >
         Enroll Now
       </action-button>
     </div>

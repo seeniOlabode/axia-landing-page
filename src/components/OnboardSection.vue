@@ -1,24 +1,27 @@
 <template>
   <section class="onboard bg-[rgb(17,17,17)] text-white py-[48px]">
-    <div>
-      <header>
-        <h2 class="heading-2-headline">Get onboard with us</h2>
-      </header>
-      <img src="@/assets/quotes.svg" alt="" width="35" class="mt-[30px]" />
-      <p class="mt-[30px]">
-        Axia Africa is an organization that is focused on equipping African
-        youths with the knowledge and digital skills needed today Our aim is to
-        make tech knowledge accessible to every individual irrespective of age,
-        literacy, and location. We are looking forward to building a strong
-        community of ready-to-work personnel and employable candidates around
-        the world in the tech space.
-      </p>
+    <header>
+      <h2 class="heading-2-headline">Get onboard with us</h2>
+    </header>
+    <div class="md:flex md:gap-[50px] md:mt-[50px]">
+      <div class="md:basis-[100%]">
+        <img src="@/assets/quotes.svg" alt="" width="35" class="mt-[30px]" />
+        <p class="mt-[30px]">
+          Axia Africa is an organization that is focused on equipping African
+          youths with the knowledge and digital skills needed today Our aim is
+          to make tech knowledge accessible to every individual irrespective of
+          age, literacy, and location. We are looking forward to building a
+          strong community of ready-to-work personnel and employable candidates
+          around the world in the tech space.
+        </p>
+      </div>
+
+      <div class="mt-[50px] md:basis-[100%] w-full grow md:-order-1">
+        <img src="@/assets/onboard.svg" class="w-full" alt="" />
+      </div>
     </div>
 
-    <div class="mt-[50px]">
-      <img src="@/assets/onboard.svg" alt="" />
-    </div>
-    <div class="mt-[50px]">
+    <div class="mt-[50px] md:mt-[100px]">
       <header class="">
         <h2 class="heading-2-headline line-before flex items-center">
           Why choose us

@@ -1,7 +1,13 @@
 <template>
-  <header class="site-header shadow-md md:shadow-none bg-white z-50">
-    <a href="."><img src="@/assets/logo.a67befb6.svg" alt="" class="logo" /></a>
-    <site-menu />
+  <header
+    class="site-header shadow-md md:shadow-none bg-white z-50 sm:h-[101px]"
+  >
+    <div class="container w-full flex justify-between items-center">
+      <a href="."
+        ><img src="@/assets/logo.a67befb6.svg" alt="" class="logo"
+      /></a>
+      <site-menu />
+    </div>
   </header>
 </template>
 
@@ -18,14 +24,15 @@ export default {
 </script>
 
 <style>
-header.site-header {
+.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 53px;
 }
 
-header.site-header img.logo {
+.site-header img.logo {
   width: 78px;
+  @apply sm:w-[115px];
 }
 </style>

@@ -11,9 +11,14 @@
     </p>
 
     <section
-      class="schools-list grid grid-cols-1 sm:grid-cols-2 gap-10 mt-[48px]"
+      class="schools-list flex flex-col gap-10 mt-[48px] sm:flex-row sm:flex-wrap justify-center"
     >
-      <single-school-card v-for="school in schools" :key="school + 'ra'" />
+      <single-school-card
+        v-for="school in schools"
+        :key="school + 'ra'"
+        class="sm:basis-[45%]"
+        :schoolData="school"
+      />
     </section>
   </section>
 </template>
@@ -21,12 +26,14 @@
 <script>
 import SingleSchoolCard from "./SingleSchoolCard.vue";
 
+import Data from "@/data/data.json";
+
 export default {
   name: "SchoolsSectin",
   components: { SingleSchoolCard },
   data() {
     return {
-      schools: [1, 2, 4],
+      schools: Data.schools,
     };
   },
 };

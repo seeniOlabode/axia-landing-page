@@ -1,5 +1,5 @@
 <template>
-  <section class="partner py-[50px]">
+  <section class="partner py-[50px] relative">
     <h1 class="heading-1-headline text-center">Partner With Us</h1>
     <p class="text-center mt-[20px] body">
       Do you have a passion for making impact and inspiring to the tech space?
@@ -8,6 +8,10 @@
     </p>
     <div class="w-full text-center mt-[100px]">
       <action-button>Learn More</action-button>
+    </div>
+    <div class="flex justify-between absolute -bottom-[80px] w-full float-img">
+      <img src="@/assets/axia-partner-bubbles-right.svg" alt="" />
+      <img src="@/assets/axia-partner-bubbles-left.svg" alt="" />
     </div>
   </section>
 </template>
@@ -23,4 +27,18 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.float-img {
+  animation: float 5s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+</style>

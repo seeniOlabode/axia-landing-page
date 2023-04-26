@@ -15,5 +15,42 @@
       "description": "Begin our front-end development program structured to help students launch a new career in web development.",
       "img": "frontend-development"
     }
+  ],
+  "schools": [
+    {
+      "name": "School of Product",
+      "description": "We offer you Product courses such as Product Design,Product management and Product marketing by equipping you with the right trainings and guidelines. Become a world class personnel and job-ready candidate in the product field."
+    },
+    {
+      "name": "School of Systems Engineering",
+      "description": "Begin your learning process in Front-End Web Development, Back-End Web Development and more. Discover career opportunities available for you. Speak to professionals and read through materials and the programme designed specifically for you."
+    },
+    {
+      "name": "School of Data",
+      "description": "Even as a newbie in the data analysis space, you can jumpstart your journey and hone your skills by kicking it off with the Axia Africa School of Data Analysis."
+    }
+  ],
+  "testimonies": [
+    {
+      "name": "Feyisayo Olakanmi",
+      "testimony": "I always had a knack for designs but I needed the right platform to put me through and teach me properly, I found that with Axia Africa. At Axia Africa, the tutors are very kind to retake a class for you when you don’t understand a thing. If you are looking for a place where you need an efficient and reliable tutoring then Axia Africa is the right place for you.",
+      "img": "feyi"
+    },
+    {
+      "name": "Dolapo Oyegunle",
+      "testimony": "Axia Africa's product design class has taught me a lot of things regarding designs and how to interact with people. I've learnt a lot about the UX and UI processes. Each class has been a perfect blend of learning and fun. Thanks so much for this opportunity Axia Africa",
+      "img": "oye"
+    },
+
+    {
+      "name": "Linda Nwodo",
+      "testimony": "Finding Axia Africa and being offered a training on product design was a turning point in my career. The lessons were planned properly and were made flexible to accommodate our different schedules.I will a 100% recommend Axia Africa to anyone who plans to take their career to the next level and is looking for a place to start.",
+      "img": "linda"
+    },
+    {
+      "name": "Blessing Fabiola",
+      "testimony": "I had no clue where to start in learning Product design, then Axia Africa started an online training and I joined. Within few weeks of coaching I was able to understand both UX &amp; UI. The classes are interesting and gives room to ask questions. Materials provided were helpful.&nbsp;It was a great to learning experience led by the fantastic teachers. I would highly recommend this training if you are a beginner",
+      "img": "blessing"
+    }
   ]
 }

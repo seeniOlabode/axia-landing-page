@@ -6,7 +6,7 @@
       {{ testimonyData.testimony }}
     </p>
     <div class="flex items-center gap-[20px] mt-[20px]">
-      <img src="@/assets/testimony-caption.png" alt="" />
+      <img :src="testimonyImage" alt="" />
       <h2 class="heading-2">{{ testimonyData.name }}</h2>
     </div>
   </div>
@@ -14,14 +14,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      testimonyData: {
-        name: "Samuel Ogunshino",
-        testimony:
-          "I always had a knack for designs but I needed the right platform to put me through and teach me properly, I found that with Axia Africa. At Axia Africa, the tutors are very kind to retake a class for you when you don’t understand a thing. If you are looking for a place where you need an efficient and reliable tutoring then Axia Africa is the right place for you.",
-      },
-    };
+  props: ["testimonyData"],
+  computed: {
+    testimonyImage() {
+      return require("@/assets/success/" + this.testimonyData.img + ".png");
+    },
   },
 };
 </script>

@@ -1,15 +1,17 @@
 <template>
-  <site-header class="fixed left-0 right-0 top-0 layout-container" />
-  <main class="mt-[56px]">
-    <site-hero class="layout-container" />
-    <courses-section class="layout-container" />
-    <advice-section class="layout-container" />
-    <onboard-section class="layout-container" />
-    <schools-section class="layout-container" />
-    <cta-aside class="layout-container" />
-    <success-section class="layout-container" />
-    <partner-section class="layout-container" />
-    <site-footer class="layout-container" />
+  <site-header
+    class="fixed left-0 right-0 top-0 layout-container xl:px-[320px]"
+  />
+  <main class="mt-[56px] sm:mt-[100px]">
+    <site-hero class="layout-container mx-auto" />
+    <courses-section class="layout-container sm:mt-[200px] mx-auto" />
+    <advice-section class="layout-container lg:px-[320px]" />
+    <onboard-section class="layout-container lg:px-[320px]" />
+    <schools-section class="layout-container mx-auto" />
+    <cta-aside class="layout-container md:px-[150px] lg:px-[320px]" />
+    <success-section class="layout-container lg:px-[320px]" />
+    <partner-section class="layout-container mx-auto" />
+    <site-footer class="layout-container sm:mt-[200px] lg:px-[320px]" />
   </main>
 </template>
 
@@ -47,7 +49,15 @@ export default {
 body {
   overflow-x: hidden;
 }
+
+#app {
+  /* @apply container mx-auto; */
+}
 .layout-container {
-  @apply px-[20px] sm:px-[58px];
+  @apply px-[20px] sm:px-[58px] lg:px-[150px];
+}
+
+.layout-container:not(.cta, .partner, .advice, .onboard, header, footer) {
+  @apply xl:container xl:mx-auto xl:px-[250px];
 }
 </style>

@@ -33,3 +33,9 @@
 .body {
   @apply text-base leading-6 text-axia-darkgrey font-sans font-semibold;
 }
+
+.link {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Avenir;
+}

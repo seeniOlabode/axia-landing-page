@@ -6,7 +6,7 @@
       your tech career.
     </p>
     <section
-      class="courses-list grid grid-cols-1 gap-10 mt-[48px] sm:grid-cols-2"
+      class="courses-list grid grid-cols-1 gap-10 mt-[48px] sm:grid-cols-2 md:grid-cols-3"
     >
       <single-course
         v-for="(course, i) in courses"

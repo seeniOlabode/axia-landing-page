@@ -1,5 +1,5 @@
 <template>
-  <section class="hero text-center sm:flex sm:items-center">
+  <section class="hero text-center sm:flex sm:items-center relative">
     <div>
       <h1 class="heading-1-headline text-center sm:text-left">
         Accelerate your career with
@@ -26,9 +26,14 @@
         </div>
       </div>
     </div>
-    <div class="hero-image mt-[20px]">
-      <img src="@/assets/axia-hero.svg" alt="" />
+    <div class="hero-image mt-[20px] md:basis-[100%]">
+      <img class="w-full" src="@/assets/axia-hero.svg" alt="" />
     </div>
+    <img
+      src="@/assets/axia-bubbles.svg"
+      class="absolute -bottom-[150px] float-img"
+      alt=""
+    />
   </section>
 </template>
 
@@ -57,5 +62,19 @@ export default {
 .hero-image img {
   width: 100%;
   padding: 20px;
+}
+
+.float-img {
+  animation: float 5s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
 }
 </style>
