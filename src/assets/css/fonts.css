@@ -21,5 +21,17 @@
 
 @font-face {
   font-family: "Avenir";
-  src: url(assets/fonts/Avenir/AvenirLTStd-Book.otf);
+  src: url(assets/fonts/Avenir/Avenir\ Regular/Avenir\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url(assets/fonts/Avenir/Avenir\ Heavy/Avenir\ Heavy.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url(assets/fonts/Avenir/Avenir\ Book/Avenir\ Book.ttf);
+  font-weight: semibold;
 }

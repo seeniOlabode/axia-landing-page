@@ -22,7 +22,7 @@
           <li
             v-for="link in schoolLinks"
             :key="link + 'linkk'"
-            class="mt-[25px] md:mt-[45px] footer-link"
+            class="mt-[25px] md:mt-[45px] site-menu-link"
           >
             {{ link }}
           </li>
@@ -32,7 +32,7 @@
           <li
             v-for="link in companyLinks"
             :key="link + 'linkk'"
-            class="mt-[25px] md:mt-[45px] footer-link"
+            class="mt-[25px] md:mt-[45px] site-menu-link"
           >
             {{ link }}
           </li>
@@ -43,7 +43,7 @@
         <li
           v-for="link in contactLinks"
           :key="link + 'linkk'"
-          class="mt-[25px] md:mt-[45px] footer-link"
+          class="mt-[25px] md:mt-[45px] site-menu-link"
         >
           {{ link }}
         </li>
@@ -118,7 +118,7 @@ export default {
   @apply text-black;
 }
 
-.footer-link {
-  @apply text-sm font-bold;
+.site-menu-link {
+  @apply text-sm font-bold cursor-pointer;
 }
 </style>

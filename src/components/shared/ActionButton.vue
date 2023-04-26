@@ -1,7 +1,7 @@
 <template>
   <button class="" :class="buttonType">
     <slot></slot>
-    <img v-if="icon" width="20" src="@/assets/right-arrow.svg" alt="" />
+    <img v-if="icon" width="20" src="@/assets/img/right-arrow.svg" alt="" />
   </button>
 </template>
 

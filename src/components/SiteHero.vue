@@ -5,7 +5,7 @@
         Accelerate your career with
         <span class="heading-gradient">Job-ready </span>tech skills.
       </h1>
-      <p class="body text-center mt-[10px] sm:text-left">
+      <p class="body text-center mt-[10px] sm:text-left text-axia-darkgrey">
         Begin your tech journey and expand your career opportunities in the tech
         space by learning tech skills in demand.
       </p>
@@ -27,11 +27,11 @@
       </div>
     </div>
     <div class="hero-image mt-[20px] md:basis-[100%]">
-      <img class="w-full" src="@/assets/axia-hero.svg" alt="" />
+      <img class="w-full" src="@/assets/img/axia-hero.svg" alt="" />
     </div>
     <img
-      src="@/assets/axia-bubbles.svg"
-      class="absolute -bottom-[150px] float-img"
+      src="@/assets/img/axia-bubbles.svg"
+      class="absolute -bottom-[150px] float-img hidden sm:block"
       alt=""
     />
   </section>

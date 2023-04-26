@@ -29,7 +29,8 @@ export default {
     // Set up Lottie Animation for Menu Button
 
     // Get a path to the Lottie.json
-    const imagePath = new URL("../../assets/menu.json", import.meta.url).href;
+    const imagePath = new URL("../../assets/img/menu.json", import.meta.url)
+      .href;
 
     // Create Animation
     this.animation = Lottie.loadAnimation({

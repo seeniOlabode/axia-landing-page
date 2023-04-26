@@ -11,8 +11,8 @@
     <cta-aside class="layout-container md:px-[150px] lg:px-[320px]" />
     <success-section class="layout-container lg:px-[320px]" />
     <partner-section class="layout-container mx-auto" />
-    <site-footer class="layout-container sm:mt-[200px] lg:px-[320px]" />
   </main>
+  <site-footer class="layout-container sm:mt-[200px] lg:px-[320px]" />
 </template>
 
 <script>

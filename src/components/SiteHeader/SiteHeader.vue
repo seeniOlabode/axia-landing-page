@@ -4,7 +4,7 @@
   >
     <div class="container w-full flex justify-between items-center">
       <a href="."
-        ><img src="@/assets/logo.a67befb6.svg" alt="" class="logo"
+        ><img src="@/assets/img/logo.a67befb6.svg" alt="" class="logo"
       /></a>
       <site-menu />
     </div>

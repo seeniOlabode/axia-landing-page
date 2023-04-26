@@ -1,17 +1,17 @@
 <template>
   <section class="partner py-[50px] relative">
     <h1 class="heading-1-headline text-center">Partner With Us</h1>
-    <p class="text-center mt-[20px] body">
+    <p class="text-center mt-[20px] body max-w-[800px] mx-auto lg:mt-[15px]">
       Do you have a passion for making impact and inspiring to the tech space?
       Partner with us at Axia Africa and share our passion of leading a
       generation of tech talents waiting to be tapped.
     </p>
-    <div class="w-full text-center mt-[100px]">
+    <div class="w-full text-center mt-[100px] lg:mt-[60px]">
       <action-button>Learn More</action-button>
     </div>
     <div class="flex justify-between absolute -bottom-[80px] w-full float-img">
-      <img src="@/assets/axia-partner-bubbles-right.svg" alt="" />
-      <img src="@/assets/axia-partner-bubbles-left.svg" alt="" />
+      <img src="@/assets/img/axia-partner-bubbles-right.svg" alt="" />
+      <img src="@/assets/img/axia-partner-bubbles-left.svg" alt="" />
     </div>
   </section>
 </template>

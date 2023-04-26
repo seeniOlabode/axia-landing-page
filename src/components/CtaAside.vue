@@ -7,7 +7,7 @@
     </header>
     <div class="w-full mt-[60px]">
       <div class="md:h-[333px] overflow-hidden">
-        <img class="w-full" src="@/assets/cta-img.png" alt="" />
+        <img class="w-full" src="@/assets/img/cta-img.png" alt="" />
       </div>
       <p class="text-white mt-[40px] mb-[80px]">
         Don’t just wait around, Register and join our students ready to enroll

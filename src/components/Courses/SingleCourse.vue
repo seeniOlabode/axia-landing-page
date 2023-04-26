@@ -39,7 +39,10 @@ export default {
   },
   computed: {
     courseImgPath() {
-      return require("@/assets/" + "course-" + this.courseData.img + ".png");
+      return require("@/assets/img/" +
+        "course-" +
+        this.courseData.img +
+        ".png");
     },
   },
 };

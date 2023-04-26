@@ -4,7 +4,7 @@
   >
     <div class="md:basis-[30%] lg:basis-[20%]">
       <div class="logo">
-        <img src="@/assets/axia-logo-white.svg" alt="" width="78" />
+        <img src="@/assets/img/axia-logo-white.svg" alt="" width="78" />
       </div>
       <p class="mt-[25px] text-white font-semibold" style="color: white">
         An organization that is focused on equipping African youths with the

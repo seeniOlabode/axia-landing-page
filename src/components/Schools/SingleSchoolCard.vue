@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     courseImgPath() {
-      return require("@/assets/" + "course-" + this.schoolData.img + ".png");
+      return require("@/assets/img" + "course-" + this.schoolData.img + ".png");
     },
   },
 };
