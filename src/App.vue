@@ -52,6 +52,8 @@ body {
 
 #app {
   /* @apply container mx-auto; */
+  overflow-x: hidden;
+  position: relative;
 }
 .layout-container {
   @apply px-[20px] sm:px-[58px] lg:px-[150px];

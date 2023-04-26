@@ -1,5 +1,5 @@
 <template>
-  <section class="success py-[80px] h-[800px] sm:px-[150px]">
+  <section class="success py-[80px] h-[800px] sm:px-[150px] overflow-hidden">
     <header>
       <h2 class="heading-2-headline">Our success story</h2>
     </header>
